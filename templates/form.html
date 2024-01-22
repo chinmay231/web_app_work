@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Form</title>
+  <style>
+    #logo{
+      width: 100%;
+      height: 360px;
+          }
+  </style>
+    
+</head>
+<body>
+
+    <h2>Input Form</h2>
+    <img id="logo" src= "https://55a819c5-ea81-48fa-8aaf-      a0ec19bbbc49-00-3fqc4gjgyd6gn.janeway.replit.dev/static/Svlogo.jpg" >
+    <form>
+        <label for="textInput">Text Input:</label>
+        <input type="text" id="textInput" name="textInput" required>
+        <br>
+
+        <label for="numberInput">Number Input:</label>
+        <input type="number" id="numberInput" name="numberInput" required>
+        <br>
+
+        <label for="alphanumericInput">Alphanumeric Input:</label>
+        <input type="text" id="alphanumericInput" name="alphanumericInput" pattern="[A-Za-z0-9]+" title="Only letters and numbers are allowed" required>
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
